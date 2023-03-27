@@ -13,7 +13,7 @@ const {userRouter}=require("./contriller/userrouter")
 app.use("/user",userRouter)
 
 const {postRouter}=require("./contriller/postrouter")
-app.use("/post",postRouter)
+app.use("/posts",postRouter)
 
 app.listen(process.env.port,async()=>{
     try {
