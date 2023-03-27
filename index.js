@@ -10,7 +10,7 @@ app.get("/",async(req,res)=>{
 })
 
 const {userRouter}=require("./contriller/userrouter")
-app.use("/user",userRouter)
+app.use("/users",userRouter)
 
 const {postRouter}=require("./contriller/postrouter")
 app.use("/posts",postRouter)
